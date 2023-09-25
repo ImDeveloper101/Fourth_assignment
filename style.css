@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    
+}
+
+header {
+    background-color: #0bab23; /* Red background color, you can change it */
+    color: #ffffff; /* White text color, you can change it */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #ff6666; /* Red background color, you can change it */
+    color: #ffffff; /* White text color, you can change it */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-container {
+    margin-bottom: 20px;
+}
+
+.video-description {
+    text-align: center;
+}
